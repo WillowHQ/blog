@@ -20,6 +20,9 @@ module.exports = {
   /*
   ** Build configuration
   */
+  router: {
+    base: '/blog/'
+  },
   build: {
     /*
     ** Run ESLint on save
